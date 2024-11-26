@@ -5,13 +5,13 @@
 
 function triangulo(lado1, lado2, lado3){
     if (lado1 == lado2 && lado2 == lado3){
-        console.log("TRIANGULO EQUILÁTERO")
+        console.log("TRIANGULO EQUILÁTERO \n ÓTIMO! CONTINUE ASSIM")
     } 
     if((lado1 == lado2 && lado1 != lado3 ) || (lado2 == lado3 && lado2 != lado1) || (lado1 == lado3 && lado2 != lado1)){
-        console.log("TRIGANGULO ISÓSCELES")
+        console.log("TRIGANGULO ISÓSCELES \n ÓTIMO! CONTINUE ASSIM")
     }
     if (lado1 != lado2 && lado2 != lado3 && lado1 != lado3){
-        console.log("TRIANGULO ESCALENO")
+        console.log("TRIANGULO ESCALENO \n ÓTIMO! CONTINUE ASSIM")
     }
 }
 
